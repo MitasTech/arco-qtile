@@ -21,7 +21,7 @@
 #   DECLARATION OF FUNCTIONS
 #
 ###############################################################################
-
+AUR_HELPER={'yay'}
 
 func_install() {
 	if pacman -Qi $1 &> /dev/null; then
@@ -50,14 +50,11 @@ list=(
 sddm
 arcolinux-wallpapers-git
 thunar
-thunar-archive-plugin
-thunar-volman
-xfce4-terminal
 arconet-xfce
-arcolinux-local-xfce4-git
-qtile
+arcolinux-qtile-distrotube-git
 sxhkd
 dmenu
+sublime-text-4
 feh
 python-psutil
 xcb-util-cursor
@@ -68,6 +65,8 @@ awesome-terminal-fonts
 archlinux-logout-git
 python-setuptools
 )
+
+$AUR_HELPER -Sy qtile-extras
 
 count=0
 
