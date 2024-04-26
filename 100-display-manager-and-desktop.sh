@@ -92,9 +92,10 @@ arcolinux-config-all-desktops-git
 awesome-terminal-fonts
 archlinux-logout-git
 python-setuptools
+timeshift
 )
 
-$AUR_HELPER -Sy qtile-extras
+$AUR_HELPER -Sy qtile-extras grub-btrfs timeshift-autosnap
 
 count=0
 
