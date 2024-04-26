@@ -40,7 +40,7 @@ mod = "mod4"              # Sets mod key to SUPER/WINDOWS
 #myTerm = "alacritty"      # My terminal of choice
 myTerm = "kitty"      # My terminal of choice
 #myBrowser = "brave"       # My browser of choice
-myBrowser = "firefox file:///home/mitas/dotfiles/startpage/index.html"
+myBrowser = "firefox"
 myEmacs = "emacsclient -c -a 'emacs' " # The space at the end is IMPORTANT!
 myFM = "thunar"              #My File Manager of choice.
 
